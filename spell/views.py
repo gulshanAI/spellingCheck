@@ -36,7 +36,7 @@ def getCorrect(body):
                 result = parser.parse(textToFilter)
                 if result['corrections']:
                     correctionsList.append(result)
-            break
+            # break
     return correctionsList
     
 
