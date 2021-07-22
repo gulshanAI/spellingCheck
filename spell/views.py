@@ -32,6 +32,7 @@ def getCorrect(body):
             parser = GingerIt()
             x=550 
             res=[textFilter[y-x:y] for y in range(x, len(textFilter)+x,x)]
+            print(res)
             for textToFilter in res:
                 result = parser.parse(textToFilter)
                 if result['corrections']:

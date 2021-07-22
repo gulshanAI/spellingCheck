@@ -1,1 +1,0 @@
-web: waitress-serve --port=$PORT checkSpelling.wsgi:application
